@@ -1,0 +1,9 @@
+WEB
+https://localhost/factura_monjas/react
+
+ARANQUE API
+gunicorn --bind 127.0.0.1:8000 app:app
+
+ARANQUE REACT
+
+export BROWSER=none;npm run start
